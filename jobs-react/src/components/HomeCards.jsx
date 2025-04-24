@@ -16,7 +16,7 @@ const HomeCards = () => {
               className="inline-block bg-black text-white rounded-lg px-4 py-2 hover:bg-gray-700"
             >
               Browse Jobs
-            </a>
+            </Link>
           </Card>
           <Card bg="bg-indigo-100">
             <h2 className="text-2xl font-bold">For Employers</h2>
@@ -28,7 +28,7 @@ const HomeCards = () => {
               className="inline-block bg-indigo-500 text-white rounded-lg px-4 py-2 hover:bg-indigo-600"
             >
               Add Job
-            </a>
+            </Link>
           </Card>
         </div>
       </div>
